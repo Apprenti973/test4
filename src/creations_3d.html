@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Kassane Derrien</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <canvas> </canvas>
+
+    <div id="app">
+      <div class="header-container">
+        <div class="titles-container">
+          <h1>Créations 3D</h1>
+        </div>
+
+        <nav class="nav-container">
+          <a href="#works">Works</a>
+          <span> - </span>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div id="works" class="works-container">
+        <div class="work-item hover-3d">
+          <!-- <div class="glow"></div> -->
+          <img src="../public/3D/Robot.png" alt="Personne lamda" />
+          <div class="work-info-container">
+            <h4>Modélisations</h4>
+            <a target="_blank" href="modelisations.html">lien du projet </a>
+          </div>
+        </div>
+        <div class="work-item hover-3d">
+          <!-- <div class="glow"></div> -->
+          <img
+            src="../public/Jeu.png"
+            alt="texte un peu inutile en vrai mais on respecte les aveugles svp"
+          />
+          <div class="work-info-container">
+            <h4>Animations</h4>
+            <a target="_blank" href="animation_3d.html">lien du projet </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="contact-container">
+        <h3>Restons en <span class="highlight">contact !</span></h3>
+        <div class="contacts-list">
+          <div class="contact-item mail">
+            <img src="../public/icons/phone.svg" alt="phone icon" />
+            <p></p>
+          </div>
+          <div class="contact-item mail">
+            <img src="../public/icons/mail.svg" alt="mail icon" />
+            <a target="”_blank”" href="mailto:monmaildefou@gmail.com"></a>
+          </div>
+          <div class="contact-item insta">
+            <img src="../public/icons/insta.svg" alt="mail icon" />
+            <a target="”_blank”" href=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../src/index.mjs" type="module"></script>
+  </body>
+</html>
